@@ -9,6 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![Image text](https://github.com/Niday/LLDatePicker/blob/master/resource/1.png?raw=true)
+![Image text](https://github.com/Niday/LLDatePicker/blob/master/resource/2.png?raw=true)
+
 ## Requirements
 
 ## Installation
