@@ -10,14 +10,12 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 <p align="center">
-    <img src="https://github.com/Niday/LLDatePicker/blob/master/resource/1.png?raw=true" alt="Sample"  width="250" height="140">
-    <p align="center">
-        <em>图片示例2</em>
-    </p>
+    <img src="https://github.com/Niday/LLDatePicker/blob/master/resource/1.png?raw=true" alt="Sample"  width="375" height="667">
 </p>
 
-![Image text](https://github.com/Niday/LLDatePicker/blob/master/resource/1.png?raw=true)
-![Image text](https://github.com/Niday/LLDatePicker/blob/master/resource/2.png?raw=true)
+<p align="center">
+    <img src="https://github.com/Niday/LLDatePicker/blob/master/resource/2.png?raw=true" alt="Sample"  width="375" height="667">
+</p>
 
 ## Requirements
 
