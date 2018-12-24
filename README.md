@@ -22,7 +22,7 @@ pod 'LLDatePicker'
 
 ## Author
 
-1833900456@qq.com, lili@jianke.com
+1833900456@qq.com
 
 ## License
 

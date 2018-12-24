@@ -8,44 +8,83 @@
 
 /* Begin PBXBuildFile section */
 		001725096570E9ABA11CA08EA23F7A53 /* Pods-LLDatePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 132D2B4000BED3DB31C71EA545BC6D47 /* Pods-LLDatePicker_Tests-dummy.m */; };
+		08A57EA1B138921F00366983ADC0075E /* DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A16F34EA81590B896716F886D9434D /* DateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1315D86EEEBD9FA0867B1BF67102303F /* Pods-LLDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6AF36D8217F2FC79D96546B0EE127A7 /* Pods-LLDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		1BFB943FFE4AC59830F1F80A35E34B9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
-		2F1AD9B5921129C2BA51BFAA9941BE4E /* LLDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F34AAA4AA7AC0CB77ECA89A56AEC80A /* LLDatePicker-dummy.m */; };
-		317F86120A40752591F5153A3535B0EC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEDD556659636004842435B807627CB /* ReplaceMe.m */; };
-		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3BD0CD81AD3849E3DF45EE53A2F8D953 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
-		4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E14CA7ED223D3C1138A4B996F420A31 /* Pods-LLDatePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3741DFD770870D1628DDCFDE7DE31671 /* Pods-LLDatePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9E45BEFE59B02FE7B91A464A4915D65C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
-		AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE8313D4018B147AB0949F34C2281CE7 /* LLDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF00ED920F544A29E70BF0DCA77E31C /* LLDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF0F75A9D25AB1F49007E09670B602B /* Pods-LLDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D8FCE4F7B131D6EEF587F48365C59 /* Pods-LLDatePicker_Example-dummy.m */; };
-		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		EBB28036D5AF70FD30B937908D2A4C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		F0927776360A862E129EB047678084BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
+		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152AA6192118F109B1D3D46198E8D57E /* SwiftSupport.swift */; };
+		1B88E25601812E1E5DD00476B985E91E /* DTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 740D1BFC3BDF726AD185922E866414DC /* DTConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C8A928BEB7D8FE9E99A2167DCA1B2C0 /* DateTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CDF00C1592C2DD0D528049D2CBEC20 /* DateTools-dummy.m */; };
+		293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A40361366D3604A75CB9C60615DFFA9 /* QuartzCore.framework */; };
+		376C2986862135D2E0C8FCCD5C1A9220 /* DateTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B29045244470A8EB34FAD0DF65AD2B /* DateTools.framework */; };
+		382D2AF11D2B0F9F0D29F4BA191CA800 /* DTTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD4706F5D535CE2AAAE41E172ACD77 /* DTTimePeriod.m */; };
+		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD0830957CF6E0C89CD2349EC68FF95 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		42BFE8AED82CF18F68C3EED0476AE619 /* DTTimePeriodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8900FE711DFEB0BC16728D20C579AE71 /* DTTimePeriodCollection.m */; };
+		453BD4BDAD1D5515B54F0CE670481D94 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A915FDA643EB70D32A140EEBAEACC1FA /* DateTools.bundle */; };
+		459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5AE04638BD5D0D96E3E001DC8DFCC2 /* FBSnapshotTestCase-dummy.m */; };
+		4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D39F727151DDAC0F91E49B7457877C /* UIImage+Compare.m */; };
+		4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CB031EFCBCDE4979A43D7AA9EAF6AF /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AB379F5DE183D0B7305389DB9F83921 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12AD8A06432039EDCEFCE14D6B2689B /* Foundation.framework */; };
+		528A050B0435F7917F4082601424EDAB /* NSDate+DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1894DA7CE3CB0530B8E9BFE0E9BAE1 /* NSDate+DateTools.m */; };
+		55A695D62F067B954E1844327FAE5FC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12AD8A06432039EDCEFCE14D6B2689B /* Foundation.framework */; };
+		59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 740B15E3455DBE34A338536B92408467 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60452EC3030B5E02CBB7E447965E87AE /* LLDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CED6288B7983F6A91D27044A0C77CF0 /* LLDatePickerViewController.m */; };
+		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 936F62E485E14BE929BE3B17B2376DCA /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		69EFDFA3DCBDC374363F682696FB4AC9 /* DTTimePeriodChain.h in Headers */ = {isa = PBXBuildFile; fileRef = CD786F405879775B1729CE805F6738F3 /* DTTimePeriodChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 006DD4EF64C21847C9796E2279C4348C /* FBSnapshotTestCasePlatform.m */; };
+		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E654996B2F5E34900DA3E1FC929A21ED /* FBSnapshotTestCase.m */; };
+		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C21E36153E94C502D2604D6F3311F00 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		81D2934D2AAF38FA99EE56B15279669E /* DTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2EB68546E96CCE9E70E5F942E49CD3 /* DTConstants.m */; };
+		915A93AEBD65F7B7E98B67DB935EDAC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12AD8A06432039EDCEFCE14D6B2689B /* Foundation.framework */; };
+		9652A693CF83DCCFD7A0AFAF40B90075 /* Pods-LLDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D8FCE4F7B131D6EEF587F48365C59 /* Pods-LLDatePicker_Example-dummy.m */; };
+		9E45BEFE59B02FE7B91A464A4915D65C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D58FB6E8D11217D5F1C288C29F688CE /* XCTest.framework */; };
+		9E581E1FA018FDE69BBF1F3C40033332 /* DTTimePeriodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C50CF21775F7F5B565650143B807A /* DTTimePeriodGroup.m */; };
+		A029D8F7C30464E605DC37F62882513F /* DTTimePeriodGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A76488DB7317C036E83ABF87F9FDE39 /* DTTimePeriodGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A042603E03FEBA619DD04492739692C4 /* NSDate+DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 26114BB4F7A1990B659712734C2F8C01 /* NSDate+DateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A208D901D7847365E85CD6A2EA82C430 /* LLDatePickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A71B1394F41E1DC44384EBB70429C5 /* LLDatePickerModel.m */; };
+		AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DD9B3A7BEC0024DAFBD1ED2E86FBA7 /* UIApplication+StrictKeyWindow.m */; };
+		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 27219D0A80442B35FA9CB5913596B1E6 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B27AC7D16CB1D0FB76F23D23E72965B8 /* DTError.m in Sources */ = {isa = PBXBuildFile; fileRef = 489EDF8B4A94D661000FF172EF3BAB1C /* DTError.m */; };
+		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = AE06F46325B59A109038353414D6B947 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C08AAD8ABCA6AEBD2532B1750CE849D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12AD8A06432039EDCEFCE14D6B2689B /* Foundation.framework */; };
+		C26B8733403FA56FC9C3A3DABF287E67 /* Pods-LLDatePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3741DFD770870D1628DDCFDE7DE31671 /* Pods-LLDatePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4AF070B994E4190C41B46831A8D2439 /* DTTimePeriodCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 823774DD397DA37AD1AC1B11566D7761 /* DTTimePeriodCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD62B8819892DB0CC273220B59C4D9B2 /* DTTimePeriod.h in Headers */ = {isa = PBXBuildFile; fileRef = D35B7ABD2C0AA33AEAA3C81B3378A31F /* DTTimePeriod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD875AC81BA18AAB47BB18FF5A2C8828 /* LLDatePickerToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC61060AC9AD6CFD9B014245EF1185 /* LLDatePickerToolBar.m */; };
+		CE0E75EB6BAC37CE9BEB6B3D96E4EBEF /* LLDatePickerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8DAA3493CCEE77D1DFF2617CA11B7F /* LLDatePickerModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46168F3B37C1F721D5BCA25EA4954DC /* LLDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7D9658D28F62CC135E5F41C0E76272 /* LLDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5C432BDEF3A3085EC3AA9737A34D418 /* DTError.h in Headers */ = {isa = PBXBuildFile; fileRef = 364C1D9D9497092DDD3A1B8712037221 /* DTError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEEB08AFC6DAA27F8664A8ED9E4EF74F /* LLDatePickerToolBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 070EE8431BA5EA21E14401DF0821BF97 /* LLDatePickerToolBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AC886FDA4E97D0C6A340DE8A31671D /* FBSnapshotTestController.m */; };
+		E42477C2B9A11DAC4D8821A5532166AB /* LLDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A311BDD4A6B77D06CA59D4B3D281F366 /* LLDatePicker-dummy.m */; };
+		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF293D0CED25BA1C08ECFCB4055DFE6 /* UIImage+Diff.m */; };
+		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C398147B79DA62E5702AA67AF1766A5 /* UIImage+Snapshot.m */; };
+		EA6C6D2293E52BD5DC40C8D555F8CF15 /* LLDatePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED0000F82866B5F86FF23C5CAB2127B /* LLDatePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF1BCC2FB89EA4D0DBAEE85E6408402 /* DTTimePeriodChain.m in Sources */ = {isa = PBXBuildFile; fileRef = FB24A6D2792377B1F7865E7DD4854860 /* DTTimePeriodChain.m */; };
+		EBB28036D5AF70FD30B937908D2A4C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12AD8A06432039EDCEFCE14D6B2689B /* Foundation.framework */; };
+		F0927776360A862E129EB047678084BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8825D2D5D825C6EE7C793D73A4C88543 /* UIKit.framework */; };
+		FC448E048137A72FD8E420A891294031 /* DateTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5809945160975EA270DA1F68006DDEE /* DateTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		634BBF16FDB8ACFB801CE2F3EE490370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D31DF17F3CD62B3A6DD8E945D4DDF6;
+			remoteInfo = DateTools;
+		};
+		6D86341C5470278F75248A0DCB6B332C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48351E6842710D0C3AEF930DDDCCAAF2;
+			remoteInfo = LLDatePicker;
+		};
 		A36648E2CAFE314F1B1C78036381B33F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A2353766F2884B99050DFCD4893291C;
+			remoteGlobalIDString = C9CD1BF5072D9F320CDE10668D4516F0;
 			remoteInfo = "Pods-LLDatePicker_Example";
 		};
 		B0307CDC71A811B173D19FF8AAC08E88 /* PBXContainerItemProxy */ = {
@@ -55,76 +94,105 @@
 			remoteGlobalIDString = 9208F82521C84CC962FB475DC38D3371;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		BD13C8DA5E5D79C9BA86A8A6B5935715 /* PBXContainerItemProxy */ = {
+		E6B8294BE3002EE946EF73552AB2D687 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EC223E836F4913A264733B81BBAF8AA3;
-			remoteInfo = LLDatePicker;
+			remoteGlobalIDString = C2D31DF17F3CD62B3A6DD8E945D4DDF6;
+			remoteInfo = DateTools;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006DD4EF64C21847C9796E2279C4348C /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		0153AF0486A7F6FD09EA425A7E121E18 /* Pods-LLDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		0A60B095C16866986651DB0960005556 /* LLDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LLDatePicker.framework; path = LLDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		04025FE869C43F788AC922EDF7B96CF4 /* DateTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DateTools.framework; path = DateTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		070EE8431BA5EA21E14401DF0821BF97 /* LLDatePickerToolBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLDatePickerToolBar.h; path = LLDatePicker/Classes/LLDatePickerToolBar.h; sourceTree = "<group>"; };
 		0C438A9CF07DF7B9CADE792F3603289A /* Pods-LLDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CEC61060AC9AD6CFD9B014245EF1185 /* LLDatePickerToolBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLDatePickerToolBar.m; path = LLDatePicker/Classes/LLDatePickerToolBar.m; sourceTree = "<group>"; };
+		0ECD4706F5D535CE2AAAE41E172ACD77 /* DTTimePeriod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriod.m; path = DateTools/DateTools/DTTimePeriod.m; sourceTree = "<group>"; };
+		12B29045244470A8EB34FAD0DF65AD2B /* DateTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		132D2B4000BED3DB31C71EA545BC6D47 /* Pods-LLDatePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLDatePicker_Tests-dummy.m"; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		140BAC418976B70F8DB1879E8DCBC4FD /* DateTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTools-prefix.pch"; sourceTree = "<group>"; };
+		152AA6192118F109B1D3D46198E8D57E /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		19F763659AAFA971945630B3B2E305FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1A72FA9565136EB30BD6F69C5E1C4A4E /* Pods-LLDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLDatePicker_Example.modulemap"; sourceTree = "<group>"; };
+		1B7D9658D28F62CC135E5F41C0E76272 /* LLDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		1CD48F6E32BBB7D60BADF5178E684605 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		221ADB5FB54F91C746DA1EFCF1CA03AE /* LLDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLDatePicker.xcconfig; sourceTree = "<group>"; };
 		2584EB7B3A22ED461A3F501BFBD07139 /* Pods-LLDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2607666E9FEABBE27B628C19B9BBA3C1 /* Pods-LLDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		26114BB4F7A1990B659712734C2F8C01 /* NSDate+DateTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DateTools.h"; path = "DateTools/DateTools/NSDate+DateTools.h"; sourceTree = "<group>"; };
+		27219D0A80442B35FA9CB5913596B1E6 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		2B173E03A426A61C43FF0CD43B6581F1 /* DateTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DateTools.modulemap; sourceTree = "<group>"; };
 		2E7E92EEC7BA9A4A96135A65ACE05BC4 /* Pods-LLDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		31559B9E77D6133F186FC669A8440288 /* LLDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LLDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		364C1D9D9497092DDD3A1B8712037221 /* DTError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTError.h; path = DateTools/DateTools/DTError.h; sourceTree = "<group>"; };
 		3741DFD770870D1628DDCFDE7DE31671 /* Pods-LLDatePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLDatePicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		4301F43EA166177A639BE54626BEF392 /* Pods_LLDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLDatePicker_Example.framework; path = "Pods-LLDatePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		4F34AAA4AA7AC0CB77ECA89A56AEC80A /* LLDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLDatePicker-dummy.m"; sourceTree = "<group>"; };
+		489EDF8B4A94D661000FF172EF3BAB1C /* DTError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTError.m; path = DateTools/DateTools/DTError.m; sourceTree = "<group>"; };
+		4C21E36153E94C502D2604D6F3311F00 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		4CD0830957CF6E0C89CD2349EC68FF95 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		4D1C50CF21775F7F5B565650143B807A /* DTTimePeriodGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodGroup.m; path = DateTools/DateTools/DTTimePeriodGroup.m; sourceTree = "<group>"; };
+		4F5AE04638BD5D0D96E3E001DC8DFCC2 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		523750AE82A1288C7D5606FCF9D741C3 /* Pods_LLDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLDatePicker_Example.framework; path = "Pods-LLDatePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E511FF1F70B4A90FAA247B46C7D188 /* Pods-LLDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5663272CCBC9C05F38D0126C9997EF51 /* LLDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLDatePicker-prefix.pch"; sourceTree = "<group>"; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		5A58576AC8BE8001FDC8E25A983E21AF /* LLDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		5A76488DB7317C036E83ABF87F9FDE39 /* DTTimePeriodGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodGroup.h; path = DateTools/DateTools/DTTimePeriodGroup.h; sourceTree = "<group>"; };
 		5C0E92C9D23B3DA49FD52C7879D14528 /* Pods-LLDatePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLDatePicker_Example-resources.sh"; sourceTree = "<group>"; };
-		5C14D2FD80BE617F5ABA7AD591ACAAC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CED6288B7983F6A91D27044A0C77CF0 /* LLDatePickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLDatePickerViewController.m; path = LLDatePicker/Classes/LLDatePickerViewController.m; sourceTree = "<group>"; };
+		63CDF00C1592C2DD0D528049D2CBEC20 /* DateTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DateTools-dummy.m"; sourceTree = "<group>"; };
+		65B17EC2563856082F988D1BC17EA165 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AB379F5DE183D0B7305389DB9F83921 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		6E0DEBAA756F503A3561F98C9510DB5A /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		6E3CDA6FB3965084270E79EC0A9012B9 /* Pods-LLDatePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLDatePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		760A92F5F6DA61A041C1562060B8E6ED /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE8C8E18E2ACA6FD140120597C32F36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A16F34EA81590B896716F886D9434D /* DateTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateTools.h; path = DateTools/DateTools/DateTools.h; sourceTree = "<group>"; };
+		740B15E3455DBE34A338536B92408467 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		740D1BFC3BDF726AD185922E866414DC /* DTConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTConstants.h; path = DateTools/DateTools/DTConstants.h; sourceTree = "<group>"; };
 		772F752DDF0F53568074009B34932114 /* Pods-LLDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		7B4CAE0A687122B175F41DD1BBAE6C90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		77FD6D1D4798FC80489097C2F4EFB509 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		78A71B1394F41E1DC44384EBB70429C5 /* LLDatePickerModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLDatePickerModel.m; path = LLDatePicker/Classes/LLDatePickerModel.m; sourceTree = "<group>"; };
+		78CB031EFCBCDE4979A43D7AA9EAF6AF /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		7D58FB6E8D11217D5F1C288C29F688CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7ED0000F82866B5F86FF23C5CAB2127B /* LLDatePickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLDatePickerViewController.h; path = LLDatePicker/Classes/LLDatePickerViewController.h; sourceTree = "<group>"; };
+		80DD9B3A7BEC0024DAFBD1ED2E86FBA7 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		823774DD397DA37AD1AC1B11566D7761 /* DTTimePeriodCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodCollection.h; path = DateTools/DateTools/DTTimePeriodCollection.h; sourceTree = "<group>"; };
+		8825D2D5D825C6EE7C793D73A4C88543 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8900FE711DFEB0BC16728D20C579AE71 /* DTTimePeriodCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodCollection.m; path = DateTools/DateTools/DTTimePeriodCollection.m; sourceTree = "<group>"; };
+		8A40361366D3604A75CB9C60615DFFA9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8C398147B79DA62E5702AA67AF1766A5 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		936F62E485E14BE929BE3B17B2376DCA /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C1894DA7CE3CB0530B8E9BFE0E9BAE1 /* NSDate+DateTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DateTools.m"; path = "DateTools/DateTools/NSDate+DateTools.m"; sourceTree = "<group>"; };
+		9D2EB68546E96CCE9E70E5F942E49CD3 /* DTConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTConstants.m; path = DateTools/DateTools/DTConstants.m; sourceTree = "<group>"; };
 		9E6D8FCE4F7B131D6EEF587F48365C59 /* Pods-LLDatePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLDatePicker_Example-dummy.m"; sourceTree = "<group>"; };
-		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A1ADEB3980454B84FAF49B2241C836DF /* Pods-LLDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BAF00ED920F544A29E70BF0DCA77E31C /* LLDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLDatePicker-umbrella.h"; sourceTree = "<group>"; };
-		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BE23167E040EAF8BB4756AB439AB03BD /* LLDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LLDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A311BDD4A6B77D06CA59D4B3D281F366 /* LLDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLDatePicker-dummy.m"; sourceTree = "<group>"; };
+		A41BB4F38E058A79685B23AA3C2553B5 /* LLDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LLDatePicker.framework; path = LLDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C37A15BE99675D6657544BC89D5632 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		A915FDA643EB70D32A140EEBAEACC1FA /* DateTools.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = DateTools/DateTools/DateTools.bundle; sourceTree = "<group>"; };
+		AE06F46325B59A109038353414D6B947 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		B12AD8A06432039EDCEFCE14D6B2689B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BB575C57DDD519AA4B88B405974ED598 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0B9E850F76FCD69CF975E7B808530B6 /* Pods-LLDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C96AC2DC96E2F4F84EB1133FEB2F3EE0 /* Pods_LLDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLDatePicker_Tests.framework; path = "Pods-LLDatePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C502649AD41CC566BADC9FA6E50AA86A /* DateTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateTools.xcconfig; sourceTree = "<group>"; };
+		C7793497887F787D7E0C7407127DDCA0 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD786F405879775B1729CE805F6738F3 /* DTTimePeriodChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodChain.h; path = DateTools/DateTools/DTTimePeriodChain.h; sourceTree = "<group>"; };
 		CEACCB502151057F088F1680C484E565 /* Pods-LLDatePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLDatePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		CFC93EFFBDB3A24A0F4FB0E88224E289 /* Pods_LLDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLDatePicker_Tests.framework; path = "Pods-LLDatePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35B7ABD2C0AA33AEAA3C81B3378A31F /* DTTimePeriod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriod.h; path = DateTools/DateTools/DTTimePeriod.h; sourceTree = "<group>"; };
+		D5809945160975EA270DA1F68006DDEE /* DateTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTools-umbrella.h"; sourceTree = "<group>"; };
 		D6AF36D8217F2FC79D96546B0EE127A7 /* Pods-LLDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D6EA0BFB9AA3F6C9A2900D5BC059F900 /* LLDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLDatePicker.modulemap; sourceTree = "<group>"; };
-		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		DCF293D0CED25BA1C08ECFCB4055DFE6 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		E126CEDF3E02F3ABFFC79D733F6F6DF1 /* Pods-LLDatePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLDatePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EA290667140464F42356F9709AC1453C /* LLDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLDatePicker.xcconfig; sourceTree = "<group>"; };
-		EBEDD556659636004842435B807627CB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LLDatePicker/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		E2AC886FDA4E97D0C6A340DE8A31671D /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		E654996B2F5E34900DA3E1FC929A21ED /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		E779389595BEFCCDEF7AF7227CB7BF01 /* LLDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLDatePicker.modulemap; sourceTree = "<group>"; };
+		E8D39F727151DDAC0F91E49B7457877C /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		F06D7A823F407228A5EB879CFEEF89C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		F5F1D16B9541FDD7AC72F887FC574A00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FB24A6D2792377B1F7865E7DD4854860 /* DTTimePeriodChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodChain.m; path = DateTools/DateTools/DTTimePeriodChain.m; sourceTree = "<group>"; };
 		FCCE47B0E36A337097D4BE1840BB8792 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8DAA3493CCEE77D1DFF2617CA11B7F /* LLDatePickerModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLDatePickerModel.h; path = LLDatePicker/Classes/LLDatePickerModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,64 +215,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD39A90BC9DB7FF2588E8342741C2842 /* Frameworks */ = {
+		7B914D66663D4656352BC66EFF43CDBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BFB943FFE4AC59830F1F80A35E34B9B /* Foundation.framework in Frameworks */,
+				376C2986862135D2E0C8FCCD5C1A9220 /* DateTools.framework in Frameworks */,
+				C08AAD8ABCA6AEBD2532B1750CE849D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6033F4A6FD7C3FB9648EE914A4F1CBB /* Frameworks */ = {
+		81477875C9F21C131DF1DEAC9E5FB0FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BD0CD81AD3849E3DF45EE53A2F8D953 /* Foundation.framework in Frameworks */,
+				915A93AEBD65F7B7E98B67DB935EDAC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB4074F17CD09BB6978A421C6F7B68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A695D62F067B954E1844327FAE5FC7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		288F2950156C49C3BDB9EDE6F2C9D255 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3EB1A8839A654B1F16EF9E6F67243337 /* iOS */,
+				12B29045244470A8EB34FAD0DF65AD2B /* DateTools.framework */,
+				7800B56A0D5AC80A44C6732C5A904532 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+		2D01ABF1620F385E3B52D591F46DFC2A /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+				152AA6192118F109B1D3D46198E8D57E /* SwiftSupport.swift */,
 			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		22FEE54F33F232DF4F2E74EC9BDD3A43 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				35EF4A851BEB99926E167E259D9705C2 /* LLDatePicker */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
-				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
-				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
-				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
-				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
-				67E276593855381568F725E69496F29C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		34A3173DE8ED4F001415D717BEA50895 /* Targets Support Files */ = {
@@ -216,35 +269,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		35EF4A851BEB99926E167E259D9705C2 /* LLDatePicker */ = {
+		43CE1D9952C8FA257BC799AED611D382 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				EBEDD556659636004842435B807627CB /* ReplaceMe.m */,
-				F6CA487BF128025CE3B44E4194F95BA8 /* Pod */,
-				C05EEBD397EAAA8EF6C5EB22D0EC5978 /* Support Files */,
+				90B8EA3D4E6BDE93BA196DF577B7248B /* Core */,
+				8AA9F5CEBD627DAEBEAB1290501BE997 /* Support Files */,
+				2D01ABF1620F385E3B52D591F46DFC2A /* SwiftSupport */,
 			);
-			name = LLDatePicker;
-			path = ../..;
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		3B43EF3DDFC469EA5A4A0389DB865E54 /* Products */ = {
+		6B8D7EFFCAD79BDADEDCB60D0744F636 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				760A92F5F6DA61A041C1562060B8E6ED /* FBSnapshotTestCase.framework */,
-				0A60B095C16866986651DB0960005556 /* LLDatePicker.framework */,
-				4301F43EA166177A639BE54626BEF392 /* Pods_LLDatePicker_Example.framework */,
-				C96AC2DC96E2F4F84EB1133FEB2F3EE0 /* Pods_LLDatePicker_Tests.framework */,
+				A915FDA643EB70D32A140EEBAEACC1FA /* DateTools.bundle */,
 			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		3EB1A8839A654B1F16EF9E6F67243337 /* iOS */ = {
+		7800B56A0D5AC80A44C6732C5A904532 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */,
-				D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */,
-				BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */,
-				E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */,
+				B12AD8A06432039EDCEFCE14D6B2689B /* Foundation.framework */,
+				8A40361366D3604A75CB9C60615DFFA9 /* QuartzCore.framework */,
+				8825D2D5D825C6EE7C793D73A4C88543 /* UIKit.framework */,
+				7D58FB6E8D11217D5F1C288C29F688CE /* XCTest.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -253,34 +303,100 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				22FEE54F33F232DF4F2E74EC9BDD3A43 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				3B43EF3DDFC469EA5A4A0389DB865E54 /* Products */,
+				B883735C6BA73C383F6ECE99C06B7DE5 /* Development Pods */,
+				288F2950156C49C3BDB9EDE6F2C9D255 /* Frameworks */,
+				91E375F9552208714FC78D6B97EADBA9 /* Pods */,
+				B36C23CFE5D6EB42281551A9303172B5 /* Products */,
 				34A3173DE8ED4F001415D717BEA50895 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+		8AA9F5CEBD627DAEBEAB1290501BE997 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		C05EEBD397EAAA8EF6C5EB22D0EC5978 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C14D2FD80BE617F5ABA7AD591ACAAC4 /* Info.plist */,
-				D6EA0BFB9AA3F6C9A2900D5BC059F900 /* LLDatePicker.modulemap */,
-				EA290667140464F42356F9709AC1453C /* LLDatePicker.xcconfig */,
-				4F34AAA4AA7AC0CB77ECA89A56AEC80A /* LLDatePicker-dummy.m */,
-				5663272CCBC9C05F38D0126C9997EF51 /* LLDatePicker-prefix.pch */,
-				BAF00ED920F544A29E70BF0DCA77E31C /* LLDatePicker-umbrella.h */,
+				A7C37A15BE99675D6657544BC89D5632 /* FBSnapshotTestCase.modulemap */,
+				6E0DEBAA756F503A3561F98C9510DB5A /* FBSnapshotTestCase.xcconfig */,
+				4F5AE04638BD5D0D96E3E001DC8DFCC2 /* FBSnapshotTestCase-dummy.m */,
+				1CD48F6E32BBB7D60BADF5178E684605 /* FBSnapshotTestCase-prefix.pch */,
+				78CB031EFCBCDE4979A43D7AA9EAF6AF /* FBSnapshotTestCase-umbrella.h */,
+				6EE8C8E18E2ACA6FD140120597C32F36 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LLDatePicker";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		90B8EA3D4E6BDE93BA196DF577B7248B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				27219D0A80442B35FA9CB5913596B1E6 /* FBSnapshotTestCase.h */,
+				E654996B2F5E34900DA3E1FC929A21ED /* FBSnapshotTestCase.m */,
+				6AB379F5DE183D0B7305389DB9F83921 /* FBSnapshotTestCasePlatform.h */,
+				006DD4EF64C21847C9796E2279C4348C /* FBSnapshotTestCasePlatform.m */,
+				740B15E3455DBE34A338536B92408467 /* FBSnapshotTestController.h */,
+				E2AC886FDA4E97D0C6A340DE8A31671D /* FBSnapshotTestController.m */,
+				AE06F46325B59A109038353414D6B947 /* UIApplication+StrictKeyWindow.h */,
+				80DD9B3A7BEC0024DAFBD1ED2E86FBA7 /* UIApplication+StrictKeyWindow.m */,
+				936F62E485E14BE929BE3B17B2376DCA /* UIImage+Compare.h */,
+				E8D39F727151DDAC0F91E49B7457877C /* UIImage+Compare.m */,
+				4C21E36153E94C502D2604D6F3311F00 /* UIImage+Diff.h */,
+				DCF293D0CED25BA1C08ECFCB4055DFE6 /* UIImage+Diff.m */,
+				4CD0830957CF6E0C89CD2349EC68FF95 /* UIImage+Snapshot.h */,
+				8C398147B79DA62E5702AA67AF1766A5 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		91E375F9552208714FC78D6B97EADBA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D0879D9FB4744DF8BF93A8C30ADCD9 /* DateTools */,
+				43CE1D9952C8FA257BC799AED611D382 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B1B4BFE054040DD1FE222489570ABE2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				19F763659AAFA971945630B3B2E305FC /* LICENSE */,
+				31559B9E77D6133F186FC669A8440288 /* LLDatePicker.podspec */,
+				77FD6D1D4798FC80489097C2F4EFB509 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B36C23CFE5D6EB42281551A9303172B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04025FE869C43F788AC922EDF7B96CF4 /* DateTools.framework */,
+				C7793497887F787D7E0C7407127DDCA0 /* FBSnapshotTestCase.framework */,
+				A41BB4F38E058A79685B23AA3C2553B5 /* LLDatePicker.framework */,
+				523750AE82A1288C7D5606FCF9D741C3 /* Pods_LLDatePicker_Example.framework */,
+				CFC93EFFBDB3A24A0F4FB0E88224E289 /* Pods_LLDatePicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B883735C6BA73C383F6ECE99C06B7DE5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE0E995B2A24282F00FCB1CF4BB4E2 /* LLDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC16110B4B7AD667D8AF6D2C0A07671A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B173E03A426A61C43FF0CD43B6581F1 /* DateTools.modulemap */,
+				C502649AD41CC566BADC9FA6E50AA86A /* DateTools.xcconfig */,
+				63CDF00C1592C2DD0D528049D2CBEC20 /* DateTools-dummy.m */,
+				140BAC418976B70F8DB1879E8DCBC4FD /* DateTools-prefix.pch */,
+				D5809945160975EA270DA1F68006DDEE /* DateTools-umbrella.h */,
+				65B17EC2563856082F988D1BC17EA165 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DateTools";
 			sourceTree = "<group>";
 		};
 		C1A9FF390CE8443ACAC401CB93C8D593 /* Pods-LLDatePicker_Tests */ = {
@@ -301,6 +417,31 @@
 			path = "Target Support Files/Pods-LLDatePicker_Tests";
 			sourceTree = "<group>";
 		};
+		C5D0879D9FB4744DF8BF93A8C30ADCD9 /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				72A16F34EA81590B896716F886D9434D /* DateTools.h */,
+				740D1BFC3BDF726AD185922E866414DC /* DTConstants.h */,
+				9D2EB68546E96CCE9E70E5F942E49CD3 /* DTConstants.m */,
+				364C1D9D9497092DDD3A1B8712037221 /* DTError.h */,
+				489EDF8B4A94D661000FF172EF3BAB1C /* DTError.m */,
+				D35B7ABD2C0AA33AEAA3C81B3378A31F /* DTTimePeriod.h */,
+				0ECD4706F5D535CE2AAAE41E172ACD77 /* DTTimePeriod.m */,
+				CD786F405879775B1729CE805F6738F3 /* DTTimePeriodChain.h */,
+				FB24A6D2792377B1F7865E7DD4854860 /* DTTimePeriodChain.m */,
+				823774DD397DA37AD1AC1B11566D7761 /* DTTimePeriodCollection.h */,
+				8900FE711DFEB0BC16728D20C579AE71 /* DTTimePeriodCollection.m */,
+				5A76488DB7317C036E83ABF87F9FDE39 /* DTTimePeriodGroup.h */,
+				4D1C50CF21775F7F5B565650143B807A /* DTTimePeriodGroup.m */,
+				26114BB4F7A1990B659712734C2F8C01 /* NSDate+DateTools.h */,
+				9C1894DA7CE3CB0530B8E9BFE0E9BAE1 /* NSDate+DateTools.m */,
+				6B8D7EFFCAD79BDADEDCB60D0744F636 /* Resources */,
+				BC16110B4B7AD667D8AF6D2C0A07671A /* Support Files */,
+			);
+			name = DateTools;
+			path = DateTools;
+			sourceTree = "<group>";
+		};
 		D9E473C0BDD9C8595A34B3B0B37810E0 /* Pods-LLDatePicker_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,53 +460,71 @@
 			path = "Target Support Files/Pods-LLDatePicker_Example";
 			sourceTree = "<group>";
 		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+		ED3FAE6F6D17EE0F638E841602AB5301 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+				BB575C57DDD519AA4B88B405974ED598 /* Info.plist */,
+				E779389595BEFCCDEF7AF7227CB7BF01 /* LLDatePicker.modulemap */,
+				221ADB5FB54F91C746DA1EFCF1CA03AE /* LLDatePicker.xcconfig */,
+				A311BDD4A6B77D06CA59D4B3D281F366 /* LLDatePicker-dummy.m */,
+				5A58576AC8BE8001FDC8E25A983E21AF /* LLDatePicker-prefix.pch */,
+				1B7D9658D28F62CC135E5F41C0E76272 /* LLDatePicker-umbrella.h */,
 			);
-			name = Core;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LLDatePicker";
 			sourceTree = "<group>";
 		};
-		F6CA487BF128025CE3B44E4194F95BA8 /* Pod */ = {
+		EFAE0E995B2A24282F00FCB1CF4BB4E2 /* LLDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				7B4CAE0A687122B175F41DD1BBAE6C90 /* LICENSE */,
-				BE23167E040EAF8BB4756AB439AB03BD /* LLDatePicker.podspec */,
-				F5F1D16B9541FDD7AC72F887FC574A00 /* README.md */,
+				FD8DAA3493CCEE77D1DFF2617CA11B7F /* LLDatePickerModel.h */,
+				78A71B1394F41E1DC44384EBB70429C5 /* LLDatePickerModel.m */,
+				070EE8431BA5EA21E14401DF0821BF97 /* LLDatePickerToolBar.h */,
+				0CEC61060AC9AD6CFD9B014245EF1185 /* LLDatePickerToolBar.m */,
+				7ED0000F82866B5F86FF23C5CAB2127B /* LLDatePickerViewController.h */,
+				5CED6288B7983F6A91D27044A0C77CF0 /* LLDatePickerViewController.m */,
+				9B1B4BFE054040DD1FE222489570ABE2 /* Pod */,
+				ED3FAE6F6D17EE0F638E841602AB5301 /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
+			name = LLDatePicker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7FDDB873BF03F405387E32091349C30C /* Headers */ = {
+		172F8024CF467A50A6BFD806C444A8BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8313D4018B147AB0949F34C2281CE7 /* LLDatePicker-umbrella.h in Headers */,
+				FC448E048137A72FD8E420A891294031 /* DateTools-umbrella.h in Headers */,
+				08A57EA1B138921F00366983ADC0075E /* DateTools.h in Headers */,
+				1B88E25601812E1E5DD00476B985E91E /* DTConstants.h in Headers */,
+				D5C432BDEF3A3085EC3AA9737A34D418 /* DTError.h in Headers */,
+				CD62B8819892DB0CC273220B59C4D9B2 /* DTTimePeriod.h in Headers */,
+				69EFDFA3DCBDC374363F682696FB4AC9 /* DTTimePeriodChain.h in Headers */,
+				C4AF070B994E4190C41B46831A8D2439 /* DTTimePeriodCollection.h in Headers */,
+				A029D8F7C30464E605DC37F62882513F /* DTTimePeriodGroup.h in Headers */,
+				A042603E03FEBA619DD04492739692C4 /* NSDate+DateTools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324FB6E79439A8C9C2EE2CE145AAC69A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26B8733403FA56FC9C3A3DABF287E67 /* Pods-LLDatePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E68A44201C7514F1766313B3F90387 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46168F3B37C1F721D5BCA25EA4954DC /* LLDatePicker-umbrella.h in Headers */,
+				CE0E75EB6BAC37CE9BEB6B3D96E4EBEF /* LLDatePickerModel.h in Headers */,
+				DEEB08AFC6DAA27F8664A8ED9E4EF74F /* LLDatePickerToolBar.h in Headers */,
+				EA6C6D2293E52BD5DC40C8D555F8CF15 /* LLDatePickerViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,14 +540,6 @@
 				63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */,
 				73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */,
 				387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A89B708A14C72062B7B515E2B584FFD4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E14CA7ED223D3C1138A4B996F420A31 /* Pods-LLDatePicker_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +571,26 @@
 			);
 			name = "Pods-LLDatePicker_Tests";
 			productName = "Pods-LLDatePicker_Tests";
-			productReference = C96AC2DC96E2F4F84EB1133FEB2F3EE0 /* Pods_LLDatePicker_Tests.framework */;
+			productReference = CFC93EFFBDB3A24A0F4FB0E88224E289 /* Pods_LLDatePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48351E6842710D0C3AEF930DDDCCAAF2 /* LLDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F4235F1D866D5677799EDD7780DAF3 /* Build configuration list for PBXNativeTarget "LLDatePicker" */;
+			buildPhases = (
+				88E68A44201C7514F1766313B3F90387 /* Headers */,
+				E1AC554820FC6CEB410D65E77B50951D /* Sources */,
+				7B914D66663D4656352BC66EFF43CDBF /* Frameworks */,
+				3F3B0194784025998C201193EE96F853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94A486CE5F5DDB27D08B35F18D35751 /* PBXTargetDependency */,
+			);
+			name = LLDatePicker;
+			productName = LLDatePicker;
+			productReference = A41BB4F38E058A79685B23AA3C2553B5 /* LLDatePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */ = {
@@ -438,44 +608,45 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 760A92F5F6DA61A041C1562060B8E6ED /* FBSnapshotTestCase.framework */;
+			productReference = C7793497887F787D7E0C7407127DDCA0 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9A2353766F2884B99050DFCD4893291C /* Pods-LLDatePicker_Example */ = {
+		C2D31DF17F3CD62B3A6DD8E945D4DDF6 /* DateTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A459EDA0DB4E59ECF4F3B0FA22277972 /* Build configuration list for PBXNativeTarget "Pods-LLDatePicker_Example" */;
+			buildConfigurationList = 08B67BA9CDBE2FDFCD206072DE327074 /* Build configuration list for PBXNativeTarget "DateTools" */;
 			buildPhases = (
-				A89B708A14C72062B7B515E2B584FFD4 /* Headers */,
-				11F134E77604A84F8DE4167CFA98E494 /* Sources */,
-				CD39A90BC9DB7FF2588E8342741C2842 /* Frameworks */,
-				8346CACC6705A79C7B78178F82DFC1AC /* Resources */,
+				172F8024CF467A50A6BFD806C444A8BA /* Headers */,
+				C1E2FC4163267F99C5AF1FF63E3930B4 /* Sources */,
+				81477875C9F21C131DF1DEAC9E5FB0FD /* Frameworks */,
+				58AE1ED707351860944C10DB8D4146C8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				89889638DDE6B896EDDC9F8A26486265 /* PBXTargetDependency */,
+			);
+			name = DateTools;
+			productName = DateTools;
+			productReference = 04025FE869C43F788AC922EDF7B96CF4 /* DateTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9CD1BF5072D9F320CDE10668D4516F0 /* Pods-LLDatePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182B6E03B2EFED4042AA79318F990EAE /* Build configuration list for PBXNativeTarget "Pods-LLDatePicker_Example" */;
+			buildPhases = (
+				324FB6E79439A8C9C2EE2CE145AAC69A /* Headers */,
+				C348FEB9677CBAE8069E2F6DA891152C /* Sources */,
+				DAB4074F17CD09BB6978A421C6F7B68E /* Frameworks */,
+				9658F8CA3388FA61F7AC66186C33A858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA4B42C167CC0E01C78454B7EF2B8C1 /* PBXTargetDependency */,
+				CBD4A3FA71FFAB3C83678B3C2AEFBC7C /* PBXTargetDependency */,
 			);
 			name = "Pods-LLDatePicker_Example";
 			productName = "Pods-LLDatePicker_Example";
-			productReference = 4301F43EA166177A639BE54626BEF392 /* Pods_LLDatePicker_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EC223E836F4913A264733B81BBAF8AA3 /* LLDatePicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65709B9EECFB5126F4B28C0113B3D268 /* Build configuration list for PBXNativeTarget "LLDatePicker" */;
-			buildPhases = (
-				7FDDB873BF03F405387E32091349C30C /* Headers */,
-				E94116666E26B71592BFF96192C65033 /* Sources */,
-				E6033F4A6FD7C3FB9648EE914A4F1CBB /* Frameworks */,
-				3F02E14918705BB17326173A5B167C64 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LLDatePicker;
-			productName = LLDatePicker;
-			productReference = 0A60B095C16866986651DB0960005556 /* LLDatePicker.framework */;
+			productReference = 523750AE82A1288C7D5606FCF9D741C3 /* Pods_LLDatePicker_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -495,27 +666,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3B43EF3DDFC469EA5A4A0389DB865E54 /* Products */;
+			productRefGroup = B36C23CFE5D6EB42281551A9303172B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				C2D31DF17F3CD62B3A6DD8E945D4DDF6 /* DateTools */,
 				9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */,
-				EC223E836F4913A264733B81BBAF8AA3 /* LLDatePicker */,
-				9A2353766F2884B99050DFCD4893291C /* Pods-LLDatePicker_Example */,
+				48351E6842710D0C3AEF930DDDCCAAF2 /* LLDatePicker */,
+				C9CD1BF5072D9F320CDE10668D4516F0 /* Pods-LLDatePicker_Example */,
 				0ACA547F7A63761427692DC2F267BAA1 /* Pods-LLDatePicker_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F02E14918705BB17326173A5B167C64 /* Resources */ = {
+		3F3B0194784025998C201193EE96F853 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8346CACC6705A79C7B78178F82DFC1AC /* Resources */ = {
+		58AE1ED707351860944C10DB8D4146C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453BD4BDAD1D5515B54F0CE670481D94 /* DateTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9658F8CA3388FA61F7AC66186C33A858 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -547,14 +727,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11F134E77604A84F8DE4167CFA98E494 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAF0F75A9D25AB1F49007E09670B602B /* Pods-LLDatePicker_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,12 +743,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E94116666E26B71592BFF96192C65033 /* Sources */ = {
+		C1E2FC4163267F99C5AF1FF63E3930B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F1AD9B5921129C2BA51BFAA9941BE4E /* LLDatePicker-dummy.m in Sources */,
-				317F86120A40752591F5153A3535B0EC /* ReplaceMe.m in Sources */,
+				1C8A928BEB7D8FE9E99A2167DCA1B2C0 /* DateTools-dummy.m in Sources */,
+				81D2934D2AAF38FA99EE56B15279669E /* DTConstants.m in Sources */,
+				B27AC7D16CB1D0FB76F23D23E72965B8 /* DTError.m in Sources */,
+				382D2AF11D2B0F9F0D29F4BA191CA800 /* DTTimePeriod.m in Sources */,
+				EAF1BCC2FB89EA4D0DBAEE85E6408402 /* DTTimePeriodChain.m in Sources */,
+				42BFE8AED82CF18F68C3EED0476AE619 /* DTTimePeriodCollection.m in Sources */,
+				9E581E1FA018FDE69BBF1F3C40033332 /* DTTimePeriodGroup.m in Sources */,
+				528A050B0435F7917F4082601424EDAB /* NSDate+DateTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C348FEB9677CBAE8069E2F6DA891152C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9652A693CF83DCCFD7A0AFAF40B90075 /* Pods-LLDatePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AC554820FC6CEB410D65E77B50951D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42477C2B9A11DAC4D8821A5532166AB /* LLDatePicker-dummy.m in Sources */,
+				A208D901D7847365E85CD6A2EA82C430 /* LLDatePickerModel.m in Sources */,
+				CD875AC81BA18AAB47BB18FF5A2C8828 /* LLDatePickerToolBar.m in Sources */,
+				60452EC3030B5E02CBB7E447965E87AE /* LLDatePickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,22 +786,126 @@
 			target = 9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */;
 			targetProxy = B0307CDC71A811B173D19FF8AAC08E88 /* PBXContainerItemProxy */;
 		};
-		89889638DDE6B896EDDC9F8A26486265 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LLDatePicker;
-			target = EC223E836F4913A264733B81BBAF8AA3 /* LLDatePicker */;
-			targetProxy = BD13C8DA5E5D79C9BA86A8A6B5935715 /* PBXContainerItemProxy */;
-		};
 		AECD56730244CCF2686DE83167387AA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LLDatePicker_Example";
-			target = 9A2353766F2884B99050DFCD4893291C /* Pods-LLDatePicker_Example */;
+			target = C9CD1BF5072D9F320CDE10668D4516F0 /* Pods-LLDatePicker_Example */;
 			targetProxy = A36648E2CAFE314F1B1C78036381B33F /* PBXContainerItemProxy */;
+		};
+		C94A486CE5F5DDB27D08B35F18D35751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DateTools;
+			target = C2D31DF17F3CD62B3A6DD8E945D4DDF6 /* DateTools */;
+			targetProxy = E6B8294BE3002EE946EF73552AB2D687 /* PBXContainerItemProxy */;
+		};
+		CBD4A3FA71FFAB3C83678B3C2AEFBC7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLDatePicker;
+			target = 48351E6842710D0C3AEF930DDDCCAAF2 /* LLDatePicker */;
+			targetProxy = 6D86341C5470278F75248A0DCB6B332C /* PBXContainerItemProxy */;
+		};
+		EAA4B42C167CC0E01C78454B7EF2B8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DateTools;
+			target = C2D31DF17F3CD62B3A6DD8E945D4DDF6 /* DateTools */;
+			targetProxy = 634BBF16FDB8ACFB801CE2F3EE490370 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D9EF6373617F15B3DD5390B56F490DF /* Release */ = {
+		0E4CDD38A364D3D094B14F96C29FE36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221ADB5FB54F91C746DA1EFCF1CA03AE /* LLDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LLDatePicker/LLDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LLDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LLDatePicker/LLDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = LLDatePicker;
+				PRODUCT_NAME = LLDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A3C35F0F86FDA92A7523C0A41FF2223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C502649AD41CC566BADC9FA6E50AA86A /* DateTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DateTools/DateTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateTools/DateTools.modulemap";
+				PRODUCT_MODULE_NAME = DateTools;
+				PRODUCT_NAME = DateTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BCCE1D854DA8FACB95F5072FB784CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C502649AD41CC566BADC9FA6E50AA86A /* DateTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DateTools/DateTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateTools/DateTools.modulemap";
+				PRODUCT_MODULE_NAME = DateTools;
+				PRODUCT_NAME = DateTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81849178879812545803719B29030C7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 772F752DDF0F53568074009B34932114 /* Pods-LLDatePicker_Example.release.xcconfig */;
 			buildSettings = {
@@ -638,9 +939,9 @@
 			};
 			name = Release;
 		};
-		296A5850D78E2E8FA386273EC432BFA3 /* Debug */ = {
+		87EAE1E22B1E2BA1BE4A99D3BF5D69E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA290667140464F42356F9709AC1453C /* LLDatePicker.xcconfig */;
+			baseConfigurationReference = 6E0DEBAA756F503A3561F98C9510DB5A /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -651,47 +952,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LLDatePicker/LLDatePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LLDatePicker/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LLDatePicker/LLDatePicker.modulemap";
-				PRODUCT_MODULE_NAME = LLDatePicker;
-				PRODUCT_NAME = LLDatePicker;
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		38C27FDFDA59930D14A420B6467C1D18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA290667140464F42356F9709AC1453C /* LLDatePicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LLDatePicker/LLDatePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LLDatePicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LLDatePicker/LLDatePicker.modulemap";
-				PRODUCT_MODULE_NAME = LLDatePicker;
-				PRODUCT_NAME = LLDatePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -699,7 +972,7 @@
 			};
 			name = Release;
 		};
-		504DA73468BAD408D684033F6579EF31 /* Debug */ = {
+		889A91E90CB571B047C6320AA8C978CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2607666E9FEABBE27B628C19B9BBA3C1 /* Pods-LLDatePicker_Example.debug.xcconfig */;
 			buildSettings = {
@@ -731,39 +1004,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		87EAE1E22B1E2BA1BE4A99D3BF5D69E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -862,7 +1102,7 @@
 		};
 		A0EAB5D782E88174587E5B81D15EFFF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 6E0DEBAA756F503A3561F98C9510DB5A /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -990,9 +1230,57 @@
 			};
 			name = Debug;
 		};
+		E891B495491EF0D11D4B08900E0459AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221ADB5FB54F91C746DA1EFCF1CA03AE /* LLDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LLDatePicker/LLDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LLDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LLDatePicker/LLDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = LLDatePicker;
+				PRODUCT_NAME = LLDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		08B67BA9CDBE2FDFCD206072DE327074 /* Build configuration list for PBXNativeTarget "DateTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCCE1D854DA8FACB95F5072FB784CD2 /* Debug */,
+				5A3C35F0F86FDA92A7523C0A41FF2223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182B6E03B2EFED4042AA79318F990EAE /* Build configuration list for PBXNativeTarget "Pods-LLDatePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889A91E90CB571B047C6320AA8C978CF /* Debug */,
+				81849178879812545803719B29030C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1C2C72129E0360ABCFEF24087626AAC3 /* Build configuration list for PBXNativeTarget "Pods-LLDatePicker_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1011,11 +1299,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65709B9EECFB5126F4B28C0113B3D268 /* Build configuration list for PBXNativeTarget "LLDatePicker" */ = {
+		74F4235F1D866D5677799EDD7780DAF3 /* Build configuration list for PBXNativeTarget "LLDatePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				296A5850D78E2E8FA386273EC432BFA3 /* Debug */,
-				38C27FDFDA59930D14A420B6467C1D18 /* Release */,
+				E891B495491EF0D11D4B08900E0459AD /* Debug */,
+				0E4CDD38A364D3D094B14F96C29FE36D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1025,15 +1313,6 @@
 			buildConfigurations = (
 				A0EAB5D782E88174587E5B81D15EFFF3 /* Debug */,
 				87EAE1E22B1E2BA1BE4A99D3BF5D69E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A459EDA0DB4E59ECF4F3B0FA22277972 /* Build configuration list for PBXNativeTarget "Pods-LLDatePicker_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				504DA73468BAD408D684033F6579EF31 /* Debug */,
-				1D9EF6373617F15B3DD5390B56F490DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

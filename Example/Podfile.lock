@@ -1,10 +1,12 @@
 PODS:
+  - DateTools (2.0.0)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LLDatePicker (0.0.1)
+  - LLDatePicker (0.0.1):
+    - DateTools
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -12,6 +14,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - DateTools
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -19,8 +22,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LLDatePicker: 708222ae6271145ca2b8ec6905d97fbdb27abb8e
+  LLDatePicker: 539a07cf2705196d7caef919a69beecfe62623a7
 
 PODFILE CHECKSUM: c8a9e733fd129a3601ef96acdd369ea55587ceea
 
